@@ -1,4 +1,107 @@
 // out: ../css/pc.css, sourcemap: true, compress: true
-header{
-  background-color: red;
+.full-container{
+  width:100%;
+}
+.main-container{
+  width: 60%;
+  margin: 0 auto;
+}
+//Header
+#header{
+  width: 100%;
+  background-image: url("../img/header-bg.png");
+  background-size: 80% 800px;
+  background-position: center;
+  min-height: 800px;
+  background-repeat: no-repeat;
+
+  .header_top{
+    padding-top: 20px;
+    .header_logo{
+      width: 20%;
+      a{
+        padding-left: 50px;
+        img{
+          max-width: 180px;
+        }
+      }
+    }
+    .header_header_menu{
+      width: 60%;
+      text-align: center;
+      ul.top_menu{
+        padding: 20px 0px 0px 0px;
+        margin: 0;
+        li{
+          list-style: none;
+          display: inline-block;
+          a{
+              font-family: 'Open Sans', sans-serif;
+              font-weight: bold;
+              text-decoration: none;
+              text-transform: uppercase;
+              padding: 10px 30px;
+              color: #0e4a8c;
+          }
+        }
+      }
+    }
+    .header_header_social{
+      width: 20%;
+      ul.social_icon{
+        padding: 20px 45px 0px 0px;
+        margin: 0;
+        float: right;
+        li{
+          list-style: none;
+          display: inline;
+          a{
+            padding: 10px 20px;
+            i{
+              color: #0e4a8c;
+            }
+          }
+        }
+      }
+    }
+  }
+  //header-bottom
+  .header_bottom{
+    .header_bottom_slider{
+      width: 40%;
+      .slider_rap{
+        float: right;
+        max-width: 400px;
+        width: 100%;
+        .slider{
+          position: relative;
+          right: -90px;
+          top: 265px;
+          h2{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+            color: #333333;
+          }
+          p{
+              font-size: 12px;
+              color: #333333;
+              width: 90%;
+          }
+        }
+      }
+    }
+    .header_bottom_map{
+      width: 60%;
+      .map_holder{
+        position: relative;
+        img{
+          position: absolute;
+          max-width: 75%;
+          width: 100%;
+          top: 85px;
+        }
+      }
+    }
+  }
 }
