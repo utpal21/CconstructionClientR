@@ -27,3 +27,86 @@ $('a[href*="#"]')
       }
     }
   });
+
+  $(document).ready(function(){
+  $('.slider_rap').slick(
+    {
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      arrows: true,
+      prevArrow:"<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
+      nextArrow:"<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>"
+    }
+  );
+
+
+  // $('.slide_testmonial').slick(
+  //   {
+  //       infinite: true,
+  //       slidesToShow: 1,
+  //       slidesToScroll: 1,
+  //       autoplay: true,
+  //       autoplaySpeed: 2000,
+  //       arrows: true,
+  //       prevArrow:"<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
+  //       nextArrow:"<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>"
+  //     }
+  // );
+
+
+// $('.slide_testmonial').owlCarousel({
+//     loop:true,
+//     margin:10,
+//     responsiveClass:true,
+//     responsive:{
+//         0:{
+//             items:1,
+//             nav:true
+//         },
+//         600:{
+//             items:1,
+//             nav:false
+//         },
+//         1000:{
+//             items:1,
+//             nav:true,
+//             loop:false
+//         }
+//     }
+// })
+
+
+
+
+// var owl = $('.slide_testmonial');
+// owl.owlCarousel({
+//     items:1,
+//     loop:true,
+//     margin:10,
+//     autoplay:true,
+//     autoplayTimeout:1000,
+//     autoplayHoverPause:true,
+//     responsiveClass:true,
+//     responsive:{
+//         0:{
+//             items:1,
+//             nav:true
+//         },
+//         600:{
+//             items:1,
+//             nav:false
+//         },
+//         1000:{
+//             items:1,
+//             nav:true,
+//             loop:false
+//         }
+//     }
+// });
+
+
+
+});
