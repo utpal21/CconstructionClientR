@@ -73,6 +73,7 @@
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
 <script type="text/javascript" src="js/slick.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
+<script src="js/slicknav/jquery.slicknav.min.js"></script>
   <script src="js/main.js"></script>
 
 

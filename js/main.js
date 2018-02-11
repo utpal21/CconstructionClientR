@@ -107,6 +107,13 @@ $('a[href*="#"]')
 //     }
 // });
 
+        $('.top_menu').slicknav({
+	label: '',
+	duration: 1000,
+	prependTo:'#demo',
+  toggle: true
+})
+
 
 
 });

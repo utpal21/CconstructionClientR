@@ -23,6 +23,7 @@
         <link rel="stylesheet" type="text/css" href="js/slick.css"/>
         <link rel="stylesheet" href="js/owl.carousel.min.css">
         <link rel="stylesheet" href="js/owl.theme.default.min.css">
+        <link rel="stylesheet" href="js/slicknav/slicknav.min.css">
         <!-- <link rel="stylesheet" type="text/css" href="js/slick-theme.css"/> -->
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/pc.css">
@@ -43,12 +44,13 @@
                   </a>
                 </div>
                 <div class="header_header_menu left">
-                  <ul class="top_menu">
+                  <ul id="menu" class="top_menu">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Sectors</a></li>
                   </ul>
+                  <div id="demo"></div>
                 </div>
                 <div class="header_header_social left">
                   <ul class="social_icon">

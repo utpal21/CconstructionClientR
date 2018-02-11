@@ -394,3 +394,17 @@ Define all default settings
 .margin{
   margin: 0 auto;
 }
+#demo {
+	display:none;
+}
+
+@media screen and (max-width: 767px) {
+	/* #menu is the original menu */
+	.top_menu {
+		display:none;
+	}
+  #demo {
+  	display:block;
+  }
+
+}
